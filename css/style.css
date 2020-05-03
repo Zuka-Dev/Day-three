@@ -1,0 +1,73 @@
+body{
+        margin: 0px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading {
+        text-align: center;
+        color: blue;
+       
+}
+.form-control::placeholder{
+        font-weight: bold;
+       
+}
+.form-control{
+        width: 39vh;
+        height: 6vh;
+        
+        
+}
+select {
+        width: 12vh;
+}
+
+
+.height{
+        display: flex;
+        border: blue
+}
+.weight{
+        display: flex;
+        border: blue;
+}
+.btn {
+        padding: 2vh;
+        background: black;
+        border: darkblue solid 2px;
+        border-radius: 12vh;
+        color:white;
+        transition: all 3s ease;
+}
+.btn:hover{
+        transform: scale(1.2,1.2)
+}
+.btn1 {
+        padding: 2vh;
+        background: blue;
+        border: blue solid 2px;
+        border-radius: 12vh;
+        color:white;
+        transition: all 3s ease;
+}
+.btn1:hover{
+        transform: scale(1.2,1.2)
+}
+.container1 {
+        height: auto;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+}
+p{text-align: center;
+  font-weight: bold;}
+.container{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-content: center;
+        background: white;
+        
+}
